@@ -1,0 +1,14 @@
+.header
+{
+  font-size: 25px;
+}
+.content
+{
+  font-size: 20px;
+  top: 10%;
+  left: 0;
+  position: fixed;
+  padding-left: 10px;
+  font-family: Arial;
+  color: #8c61ff;
+}
