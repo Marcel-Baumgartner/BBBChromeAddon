@@ -11,13 +11,14 @@
           
         <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <script src="js/menue.js"></script>
     </head>
     <body>
       <div class="window-size">
         <ul class="navbar">
-          <li><button class="button button-skin1"><span>General</span></button></li>
-          <li><button class="button button-skin1"><span>Quick Actions</span></button></li>
-          <li><button class="button button-skin1"><span>About</span></button></li>
+          <li><button class="button button-skin1" onclick="switchTo('index')"><span>General</span></button></li>
+          <li><button class="button button-skin1" onclick="switchTo('quickactions')"><span>Quick Actions</span></button></li>
+          <li><button class="button button-skin1" onclick="switchTo('about')"><span>About</span></button></li>
         </ul>
         <br><br>
         <div class="content">
